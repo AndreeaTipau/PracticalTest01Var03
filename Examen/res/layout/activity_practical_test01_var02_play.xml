@@ -6,30 +6,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ro.pub.cs.systems.eim.practicaltest01var03.PracticalTest01Var03MainActivity" >
+    tools:context="ro.pub.cs.systems.eim.practicaltest01var03.PracticalTest01Var02PlayActivity" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:orientation="vertical" >
         
          <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.26"
-            android:columnCount="2"
-            android:rowCount="4" >
+             android:layout_width="278dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.30"
+             android:columnCount="2"
+             android:rowCount="4" >
 
             <EditText
-                android:id="@+id/riddle"
-                android:saveEnabled="false"
+                android:id="@+id/activ2_riddle"
+                android:saveEnabled="true"
                 android:layout_width="130dp"
                 android:layout_column="0"
                 android:layout_gravity="left|top"
                 android:layout_row="0"
-                android:editable="true"
+                android:editable="false"
                 android:text=""
                 android:ems="10" >
 
@@ -37,8 +35,8 @@
             </EditText>
 
             <EditText
-                android:id="@+id/answer"
-                android:saveEnabled="false"
+                android:id="@+id/activ2_answer"
+                android:saveEnabled="true"
                 android:layout_width="144dp"
                 android:layout_column="1"
                 android:layout_gravity="left|top"
@@ -48,15 +46,21 @@
                 android:ems="10" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button_check"
                 android:layout_width="105dp"
                 android:layout_column="0"
                 android:layout_gravity="right|top"
                 android:layout_row="1"
-                android:text="Play" />
+                android:text="Check" />
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="105dp"
+                android:layout_column="1"
+                android:layout_gravity="right|top"
+                android:layout_row="1"
+                android:text="Back" />
 
         </GridLayout>
-        
         
     </LinearLayout>
 

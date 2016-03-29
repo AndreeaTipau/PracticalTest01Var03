@@ -4,5 +4,6 @@
     <string name="app_name">PracticalTest01Var03</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_practical_test01_var02_play">PracticalTest01Var02PlayActivity</string>
 
 </resources>
